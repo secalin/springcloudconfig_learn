@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: 10-product-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/itheima_javaee_frame_springcloud?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: true
+eureka:
+  instance:
+    prefer-ip-address: true # 使用 ip 地址进行注册
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka/
+# 自定义的 数据
+name: product-test
