@@ -19,4 +19,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka/
 # 自定义的 数据
-name: product-test-update
+name: product-test-update-1
