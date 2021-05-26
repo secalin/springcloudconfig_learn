@@ -12,11 +12,11 @@ spring:
     database: MySQL
     show-sql: true
     open-in-view: true
-  rabbitmq:
-    host: 192.168.8.128
-    port: 5672
-    username: guest
-    password: guest
+#   rabbitmq:
+#     host: 192.168.8.128
+#     port: 5672
+#     username: guest
+#     password: guest
 eureka:
   instance:
     prefer-ip-address: true # 使用 ip 地址进行注册
@@ -24,6 +24,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka/
 # 自定义的 数据
-name: product-test-update-6
+name: product-test-update-7
 
 
