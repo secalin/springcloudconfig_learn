@@ -12,6 +12,11 @@ spring:
     database: MySQL
     show-sql: true
     open-in-view: true
+  rabbitmq:
+    host: 192.168.8.128
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   instance:
     prefer-ip-address: true # 使用 ip 地址进行注册
